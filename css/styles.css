@@ -1,0 +1,199 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.1em;
+    /* 1em = 16px, por lo que 1.1em = 17.6px */
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.5;
+    /* 1.5em = 26.4px */
+    background: #fff;
+    color: #343434;
+}
+
+h1,
+h2,
+ul,
+li,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 1.6em;
+    /* 1.9em = 30.4px */
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #1c1b1b;
+    margin-bottom: 0.5em;
+    /* 0.5em = 8px */
+    font-weight: 300; /* 300 = light */
+}
+
+h2 {
+    font-size: 1.6em;
+    /* 1.6em = 24px */
+    color: #802f48;
+}
+
+p,a {
+    color: #1c1b1b;
+}
+
+ul {
+    list-style: none;
+}
+
+address {
+    font-style: normal;
+}
+
+.separador {
+    height: 2px;
+    margin: 1.2em auto;
+    /* 1.2em = 20.16px */
+    width: clamp(150px, 35%, 350px);
+    background-color: #fff;
+}
+
+.boton {
+    display: inline-block;
+    margin: 1em auto;
+    padding: 0.5em 1.5em; /* 0.5em = 8px, 1.5em = 24px */
+    color: #f5f0ed;
+    text-decoration: none;
+    font-weight: 400;
+    border: 2px solid #f5f0ed;
+    font-size: .9rem;
+}
+
+.boton:hover {
+    background: #802f48;
+    color: #f5f0ed;
+    border-color: #f5f0ed;
+}
+
+
+/* Estructura */
+.ancho-maximo {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex.col-2 > * {
+    flex-basis: 50%;
+}
+
+.gapped {
+    /* gap: 0.2em; */
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+/* Header y navegación */
+/* header principal */
+.frase-slogan {
+    font-size: .7em;
+    background: #070606;
+    color: #f5f0ed;
+    padding: 0.5em 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* header superior */
+.main-header__top-bar {
+    color: #343434;
+    padding: 0.5em 0;
+}
+
+.main-nav.flex {
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav__list.flex {
+    gap: 1.5em;
+    margin-right: 100px;
+}
+
+.main-nav__list.flex li a {
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+.main-nav__logo {
+    width: 150px;
+    height: 50px;
+}
+
+.main-nav__logo a img {
+    margin-left: -10em;
+}
+
+/*zona inferior header */
+.main-header__bottom-bar {
+    background: url('../images/header-background.webp');
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0 8em;
+    color: #f5f0ed;
+}
+
+.main-header__bottom-bar .flex {
+    height: 220px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.main-header__bottom-bar h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    background: rgb(0,0,0, 0.3);
+    letter-spacing: .1em;
+}
+
+.main-header__bottom-bar a {
+    color: #000;
+    background: #f5f0ed;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .8em;
+    padding: 0.8em 0.8em; /* 0.7em = 11.2px, 1.5em = 24px */
+    margin-top: 10px;;
+}
+
+	/* zona principal */
+main {
+   margin: 2em auto;
+}
+
+main p {
+    margin-bottom: 1.5em;
+    font-size: 1.1em;
+    line-height: 1.2;
+}

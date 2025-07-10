@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Agribi, expertos en Muebles artesanos</title>
+
+	<!-- importamos hoja de estilos que homogeniza los navegadores -->
+	<!-- ⚠️ FALTA link -->
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<!-- importamos fuentes -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+	href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+	rel="stylesheet">
+	
+	<!-- importamos nuestros estilos css -->
+	<!-- ⚠️ FALTA link -->
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+	<!-- frase inicial -->
+	<div class="frase-slogan">
+		El portal de la artesanía emergente
+	</div>
+
+	<!-- cabecera principal  -->
+	<header class="main-header">
+		<!-- zona superior header -->
+		<div class="main-header__top-bar  ancho-maximo">
+
+			<!-- menú de navegación -->
+			<nav class="main-nav flex">
+				<div class="main-nav__logo">
+					<a href="index.html">
+						<img src="images/marca-agribi.png" alt="Ir al inicio">
+					</a>
+				</div>
+
+				<ul class="main-nav__list flex">
+					<li>
+						<a href="#">Conócenos</a>
+					</li>
+
+					<li>
+						<a href="#">nuestros productos</a>
+					</li>
+
+					<li>
+						<a href="#">premios y galardones</a>
+					</li>
+
+					<li>
+						<a href="#">contacto</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- zona inferior header -->
+		<div class="main-header__bottom-bar">
+			<div class="ancho-maximo flex">
+				<h2>Nuevos artesanos</h2>
+				<a href="#" class="btn">Ver novedades</a>
+			</div>
+		</div>
+
+	</header>
+
+	<!-- zona principal -->
+	<main>
+		<section>
+			<div class="ancho-maximo">
+				<h1>Un impulso al diseño y artesanía emergente</h1>
+
+				<h2>Qué es Agribi</h2>
+
+				<p>Es una plataforma donde <strong>artesanos emergentes</strong>, llenos de pasión y talento, presentan
+					sus productos, novedades, historias e inspiraciones.</p>
+
+				<p>Un lugar donde podrás encontrar más de <strong>25 artesanos y sus más de 500 productos</strong> de
+					manera exclusiva.</p>
+
+				<p>Agribi nació con el objetivo de mostrar el quién y el cómo se hacen estos increibles productos,
+					siempre bajo los patrones de selección de la calidad artesana, el diseño y la sostenibilidad de
+					procesos.
+				</p>
+
+				<!-- contenedor artesanos -->
+				<div class="contenedor-artesanos">
+					<!-- artesano 1 -->
+					<div class="artesano flex">
+						<figure class="artesano__img">
+							<img src="images/artesano-1.webp" alt="">
+						</figure>
+						<div class="artesano__info">
+							<p class="artesano__descripcion">Moldear arcilla, hornear sueños, crear belleza de barro...
+							</p>
+							<p class="artesano__datos"><span class="artesano__nombre">Alessia</span> / Ceramista
+							</p>
+							<a class="boton" href="#">Ver trabajos</a>
+						</div>
+					</div>
+
+					<!-- artesano 2 -->
+					<div class="artesano flex">
+						<figure class="artesano__img">
+							<img src="images/artesano-2.webp" alt="">
+						</figure>
+						<div class="artesano__info">
+							<p class="artesano__descripcion">Transforma cuero en arte, crea piezas únicas y duraderas...
+							</p>
+							<p class="artesano__datos"><span class="artesano__nombre">Valeria</span> / Marroquinera
+							</p>
+							<a class="boton" href="#">Ver trabajos</a>
+						</div>
+					</div>
+
+					<!-- artesano 3 -->
+					<div class="artesano flex">
+						<figure class="artesano__img">
+							<img src="images/artesano-3.webp" alt="">
+						</figure>
+						<div class="artesano__info">
+							<p class="artesano__descripcion">Convierte la madera en arte creando piezas cálidas y
+								bellas...
+							</p>
+							<p class="artesano__datos"><span class="artesano__nombre">Théo</span> / Ebanista y tallador
+								de
+								madera
+							</p>
+							<a class="boton" href="#">Ver trabajos</a>
+						</div>
+					</div>
+
+					<!-- artesano 4 -->
+					<div class="artesano flex">
+						<figure class="artesano__img">
+							<img src="images/artesano-4.webp" alt="">
+						</figure>
+						<div class="artesano__info">
+							<p class="artesano__descripcion">Funde arena, da forma a la luz con brillo eterno..</p>
+							<p class="artesano__datos"><span class="artesano__nombre">Aitana</span> / Vidriera
+							</p>
+							<a class="boton" href="#">Ver trabajos</a>
+						</div>
+					</div>
+				</div> <!-- fin contenedor artesanos -->
+
+				<p class="text-center">
+					<a href="#" class="enlace-seccion">Descubre más artesanos</a>
+				</p>
+			</div>
+
+		</section>
+
+	</main>
+
+	<!-- Footer de la página -->
+
+	<footer class="main-footer">
+
+		<!-- Parte superior del footer -->
+		<div class="main-footer__top-bar flex ancho-maximo">
+
+			<!-- mensaje -->
+			<div class="main-footer__mensaje">
+
+				<h2>Protegemos el medioambiente</h2>
+
+				<p>Los productos elaborados por los <strong>artesanos miembros de Agribi respetan siempre los más altos
+						estándares ecológicos</strong>. Por ejemplo, los productos que emplean madera provienen siempre
+					de bosques certificados <abbr
+						title="Programa para el Reconocimiento de Certificación Forestal">PEFC</abbr> o <abbr
+						title="Forest Stewardship Council">FSC</abbr>.
+				</p>
+
+				<p>Esto significa que el producto ha sido certificado como procedente de una fuente sostenible y legal
+					que ayuda a promover el desarrollo sostenible.
+				</p>
+
+
+			</div>
+
+			<!-- formulario suscripción -->
+			<div class="main-footer__formulario">
+				<h2>Suscríbete</h2>
+
+				<p>Suscrçibete a nuestor boletín mensual y te informamos sobre los nuevos artesanos y sus productos
+				</p>
+
+				<form action="procesar.php" method="post" enctype="multipart/form-data">
+
+					<fieldset class="flex">
+						<div class="campo-formulario">
+							<input type="text" name="nombre" id="nombre" required placeholder="* Nombre">
+						</div>
+
+						<div class="campo-formulario">
+							<input type="email" name="correo" id="correo" required placeholder="* Correo">
+						</div>
+					</fieldset>
+
+					<div class="campo-formulario">
+						<input type="checkbox" name="clausulas" id="clausulas" required>
+						<label for="clausulas">* Acepto condiciones y términos de uso. <a href="#">Leer
+								condiciones</a></label>
+					</div>
+
+					<div class="campo-formulario">
+						<input type="submit" value="Enviar">
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<!-- Parte inferior del footer -->
+		<div class="main-footer__bottom-bar">
+			<ul class="flex">
+				<li>
+					<a href="#">Aviso Legal y Privacidad</a>
+				</li>
+
+				<li>
+					<a href="#">Política de Cookies</a>
+				</li>
+
+				<li>
+					<a href="#">Contacto</a>
+				</li>
+
+				<li>
+					<a href="#">Mapa web</a>
+				</li>
+			</ul>
+
+			<p class="main-footer__copyright">
+				<small> Agribi Artesanía Emergente &copy;</small>
+			</p>
+		</div>
+
+	</footer>
+
+</body>
+
+</html>
