@@ -42,9 +42,10 @@ h1 {
 }
 
 h2 {
-    font-size: 1.6em;
+    font-size: 1.2em;
     /* 1.6em = 24px */
     color: #802f48;
+    text-transform: uppercase;
 }
 
 p,a {
@@ -82,6 +83,11 @@ address {
     background: #802f48;
     color: #f5f0ed;
     border-color: #f5f0ed;
+}
+
+img {
+    max-width: 70%;
+    height: auto;
 }
 
 
@@ -187,13 +193,59 @@ address {
     margin-top: 10px;;
 }
 
-	/* zona principal */
+/* zona principal */
 main {
    margin: 2em auto;
+}
+
+main h2 {
+    margin-top: 60px;
 }
 
 main p {
     margin-bottom: 1.5em;
     font-size: 1.1em;
     line-height: 1.2;
+}
+
+.artesano {
+    margin: -10px 0;
+}
+
+.artesano.flex {
+    flex-wrap: nowrap;
+    background: #f0f0ec;
+}
+
+.artesano__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.artesano__info .artesano__descripcion {
+    font-size: 1.9em;
+    margin-bottom: 0.5em;
+}
+
+.artesano__info  {
+    flex-basis: 33%;
+    margin: 44px 66px 74px -165px;
+}
+
+.artesano__img {
+    flex-basis: 66%;
+    padding: 0 20px;
+}
+
+
+.artesano__info a {
+    font-size: 1.2em;
+    background-color: #fff;
+    color: #0a0104;
+    text-decoration: none;
+}
+
+.artesano__datos span {
+    font-weight: 600;
+    color: #802f48;
 }
