@@ -86,7 +86,7 @@ address {
 }
 
 img {
-    max-width: 70%;
+    max-width: 90%;
     height: auto;
 }
 
@@ -223,19 +223,33 @@ main p {
 }
 
 .artesano__info .artesano__descripcion {
-    font-size: 1.9em;
+    font-size: 2.4em;
     margin-bottom: 0.5em;
+    font-weight: 400;
 }
 
 .artesano__info  {
-    flex-basis: 33%;
-    margin: 44px 66px 74px -165px;
+    flex-basis: 50%;
+    /* margin: 75px 66px 74px -165px; */
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .artesano__img {
-    flex-basis: 66%;
-    padding: 0 20px;
+    flex-basis: 68%;
 }
+
+.artesano.flex.dos .artesano__img, .artesano.flex.cuatro .artesano__img {
+    order: 1;
+    margin-left: 43px;
+}
+.artesano.flex.dos .artesano__info, .artesano.flex.cuatro .artesano__info {
+    margin-left: 150px;
+}
+
+/*.contenedor-artesanos .artesano__info:nth-child(even) {
+    order: -1;
+} */
 
 
 .artesano__info a {
