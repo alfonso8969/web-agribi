@@ -115,7 +115,7 @@ img {
   color: var(--color-verde-principal);
 }
 
-/* Hero section */
+/* Main header section */
 .main-header__bottom-bar {
   background: linear-gradient(135deg, var(--color-verde-principal) 0%, var(--color-verde-oscuro) 100%);
   padding: 80px 0;
@@ -159,7 +159,7 @@ img {
 /* ========================================================================
    BOTONES
    ======================================================================== */
-.boton, .btn {
+.button, .btn {
   display: inline-block;
   background-color: var(--color-naranja);
   color: var(--color-blanco);
@@ -177,7 +177,7 @@ img {
   box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
 }
 
-.boton:hover, .btn:hover {
+.button:hover, .btn:hover {
   background-color: var(--color-marron);
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4);
@@ -265,7 +265,7 @@ strong {
   min-height: 180px;
 }
 
-.artesano__descripcion {
+.artesano__description {
   font-style: italic;
   color: var(--color-texto-claro);
   margin-bottom: 15px;
@@ -286,7 +286,7 @@ strong {
   font-size: 20px;
 }
 
-.artesano .boton {
+.artesano .button {
   align-self: flex-start;
   font-size: 12px;
   padding: 10px 20px;
