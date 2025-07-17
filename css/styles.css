@@ -125,7 +125,11 @@ img {
 
 /* header superior */
 .main-header__top-bar {
-    color: #343434;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: aliceblue;
+    color: #88bce7;
     padding: 0.5em 0;
 }
 
@@ -156,7 +160,7 @@ img {
 }
 
 .main-nav__logo a img {
-    margin-left: -10em;
+    /* margin-left: -10em; */
 }
 
 /*zona inferior header */
